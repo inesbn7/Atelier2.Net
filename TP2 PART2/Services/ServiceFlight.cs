@@ -61,5 +61,11 @@ namespace AM.ApplicationCore.Services
             }
             return listFlights;
         }
+
+        public void GetFlights(string filterType, string filterValue);
+
+
+
     }
+
 }
